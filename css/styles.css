@@ -1,0 +1,89 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5; /* Secondary Light Gray background for the page */
+    color: #005f99; /* Primary Blue for main text */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #005f99; /* Primary Blue background for navigation */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* White text for nav links */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    background-color: #ff8c42; /* Accent Soft Orange hover effect */
+    padding: 10px;
+}
+
+/* General Section Styling */
+section {
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #f5f5f5; /* Secondary Light Gray background for sections */
+    color: #005f99; /* Primary Blue for section text */
+}
+
+#about {
+    background-color: #f5f5f5; /* Secondary Light Gray background */
+}
+
+#projects {
+    background-color: #f5f5f5; /* Same background to maintain consistency */
+}
+
+#contact {
+    background-color: #f5f5f5; /* Consistent light gray background */
+}
+
+/* Call-to-Action Buttons */
+button {
+    background-color: #ff8c42; /* Accent Soft Orange for buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #67a866; /* Accent Green on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #005f99; /* Primary Blue background for footer */
+    color: white; /* White text for footer */
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
